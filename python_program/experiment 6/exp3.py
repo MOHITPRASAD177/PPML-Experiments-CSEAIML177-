@@ -1,0 +1,13 @@
+s1=input("enter a sentence")
+list1=s1.split()
+print("word stored in list1:")
+print(list1)
+print("elements with index")
+for index,word in enumerate(list1):
+    print(index,":",word)
+list2=list(range(1,len(list1)+1)) 
+print("list2 (series of num)")
+print(list2)
+print("combine element zip()")
+combined=list(zip(list1,list2)) 
+print(combined)  
